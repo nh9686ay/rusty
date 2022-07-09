@@ -1,15 +1,10 @@
-let saveEl = document.getElementById("save-el")
-let countEl = document.getElementById("count-el")
-let count = 0
+let myPoints = 3
 
-function increment() {
-    count += 1
-    countEl.textContent = count
-}
+// Create two functions, add3Points() and remove1Point(), and have them
+// add/remove points to/from the myPoints variable
 
-function save() {
-    let countStr = count + " - "
-    saveEl.textContent += countStr;
-    countEl.textContent = 0;
-    count = 0;
-}
+
+
+
+// Call the functions to that the line below logs out 10
+console.log(myPoints)
