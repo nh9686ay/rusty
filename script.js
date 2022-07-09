@@ -1,8 +1,11 @@
-let username = "per"
-let message = "You Have tree new notification!";
+let name = 'Emon';
+let greetings = 'Hi, my name is ';
+myGreetings = greetings + name;
+// console.log(myGreetings);
 
-// console.log(message);
+let points = 4;
+let bonusPoints = 10
 
-let messageToUser = message + ", " + username + "!";
+let totalPoints = points + bonusPoints;
 
-console.log(messageToUser)
+console.log(totalPoints)
