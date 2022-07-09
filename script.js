@@ -1,11 +1,8 @@
-let name = 'Emon';
-let greetings = 'Hi, my name is ';
-myGreetings = greetings + name;
-// console.log(myGreetings);
+let welcomeEl = document.getElementById("welcome-el");
 
-let points = 4;
-let bonusPoints = 10
+let name = "Emon";
+let greeting = "Hey! se Its me, ";
 
-let totalPoints = points + bonusPoints;
+let greetingMessage = greeting + name;
 
-console.log(totalPoints)
+welcomeEl.innerText = greetingMessage;
